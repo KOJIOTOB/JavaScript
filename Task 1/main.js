@@ -60,46 +60,12 @@ console.log(result);*/
 
 //document.write("<h1>Hello World</h1>");
 
-/*let bookJs1 = {
-    title: "JavaScript для детей",
-    pages: 288,
-    genre: "Cамоучитель по программированию"
-};
-console.log(bookJs1);
-*/
 
 
-/*
-let bookJs2 = {
-    title: "JavaScript для детей",
-    pages: 288,
-    genre: "Cамоучитель по программированию",
-    author: "Ник Морган"
-};
-console.log(bookJs2);
-*/
 
-/*
-const arr = [
-    {
-        title: "JavaScript для детей",
-        pages: 288,
-        genre: "Cамоучитель по программированию",
-        author: "Ник Морган",
-    },
-    {
-        title: "JavaScript",
-        pages: 388,
-        genre: "Cамоучитель"
-    },
-    {
-        title: "JavaScript Okten",
-        pages: 88,
-        genre: "Cамоучитель по программированию"
-    }
-];
-console.log(arr[0]);
-*/
+
+
+
 
 /*
 let height = 23;
@@ -109,21 +75,8 @@ let s = height * width;
 console.log(s)
 */
 
-/*
-let heightC = 10;
-let dC = 4;
-let s = Math.PI * (dC / 2) ** 2 * heightC;
-console.log(s)
-*/
-
-/*let n = 3
-let m = 4*/
-
-//let k = Math.sqrt((n**2 + m**2))
-
-/*let k = Math.sqrt((Math.pow(n, 2) + Math.pow(m, 2)))
 
 
-alert(k);*/
+
 
 
