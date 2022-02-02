@@ -137,7 +137,7 @@ let lastName = 'Колотов';
  age: 30
 };
 
-alert(`Вiтаю ${person1["firstName"]} ${person1["middleName"]} Тобi ${person1["age"]} рокiв`);*/
+alert(`Вiтаю ${person1["firstName"]} ${person1["middleName"]} Тобi ${person1["age"]} рокiв`);
 
 //document.write("<h1>Hello World</h1>");
 
@@ -163,5 +163,21 @@ console.log(10 != 10);
 console.log(123 === '123')
 console.log(123 == '123')
 */
+
+
+
+/*let firstName = prompt("Вiктор");
+let middleName = prompt("Сергійович");
+let age = prompt(30);*/
+
+let person3 = prompt(
+    firstName = " Вiктор",
+    middleName = " Сергійович",
+    age = 30,
+);
+
+alert('Вiтаю' + firstName  +  middleName + ' Тобi ' + age + ' рокiв');
+console.log('Вiтаю' + firstName  +  middleName + ' Тобi ' + age + ' рокiв');
+document.write('Вiтаю' + firstName  +  middleName + ' Тобi ' + age + ' рокiв');
 
 
