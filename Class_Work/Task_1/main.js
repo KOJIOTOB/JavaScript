@@ -3,10 +3,10 @@
    Скласти результат цих чисел в змінній result.
 */
 
-/*const array = [1,2,3,5,6,7,8,9,0,10];
+const array = [1,2,3,4,5,6,7,8,9,10];
 let result = array[0] + array[1] + array[2] + array[3] + array[4] + array[5]
-    + array[6] + array[7] + array[8] + array[9] + array[0] + array[10];
-console.log(result);*/
+    + array[6] + array[7] + array[8] + array[9];
+console.log(result);
 
 
 /*
