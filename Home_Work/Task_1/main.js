@@ -170,6 +170,7 @@ console.log(123 == '123')
 let middleName = prompt("Сергійович");
 let age = prompt(30);*/
 
+/*
 let person3 = prompt(
     firstName = " Вiктор",
     middleName = " Сергійович",
@@ -179,5 +180,17 @@ let person3 = prompt(
 alert('Вiтаю' + firstName  +  middleName + ' Тобi ' + age + ' рокiв');
 console.log('Вiтаю' + firstName  +  middleName + ' Тобi ' + age + ' рокiв');
 document.write('Вiтаю' + firstName  +  middleName + ' Тобi ' + age + ' рокiв');
+*/
+
+
+
+let str = "20";
+let a = 5;
+
+document.write(str + a + "<br/>");  // 205
+document.write(str - a + "<br/>");  // 15
+document.write(str * "2" + "<br/>"); // 40
+document.write(str / 2 + "<br/>");  // 10
+
 
 
