@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+.wrap {
+    margin: 50px auto;
+    width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(5, 0fr);
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+}
+
+.post-card {
+    position: relative;
+    bottom: 300px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+
+    padding: 1em;
+    border-radius: 10px;
+    background: rgb(100,160,210) radial-gradient(circle at 100% 100%, rgba(255,255,255,.60), rgba(255,255,255,.20));
+    box-shadow:
+            -1px -1px rgb(100, 150, 200),
+            -2px -2px rgb(100, 140, 190),
+            -3px -3px rgb(100, 130, 180),
+            -4px -4px rgb(100, 120, 170),
+            -5px -5px rgb(100, 120, 160),
+            -6px -6px rgb(100, 120, 150),
+            -7px -7px 4px 2px rgb(180, 180, 180),
+            -8px -8px 6px 3px rgb(200, 200, 200);
+}
