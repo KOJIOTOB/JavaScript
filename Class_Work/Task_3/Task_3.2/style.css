@@ -1,0 +1,47 @@
+body {
+
+    width: 1400px;
+}
+
+.wrapper {
+    margin: 100px auto;
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    position: relative;
+    bottom: 200px;
+
+}
+
+.user-block {
+    width:300px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 -10px 20px -5px rgba(115,115,115,0.75),
+    0 10px 20px -5px rgba(115,115,115,0.75),
+    -10px 0 20px -5px rgba(115,115,115,0.75);
+    border-radius: 10px;
+
+}
+
+
+.address-block {
+    font-size: 18px;
+    line-height: 40px;
+
+
+}
+
+.geo {
+  line-height: 50px;
+}
+
+.phone {
+    line-height: 50px;
+}
+
+.company {
+    line-height: 30px;
+}

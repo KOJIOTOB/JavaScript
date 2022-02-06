@@ -607,12 +607,7 @@ let array =[
 document.write(`<div class="wrap">`)
 for (let i = 0; i < array.length; i++) {
     let arr = array[i];
-    document.write(`<div class="post-card">
-                ${arr.userId}
-                ${arr.id} 
-                ${arr.title} 
-                ${arr.body}
-        </div>`)
+    document.write(`<div class="post-card"> ${arr.userId} ${arr.id} ${arr.title} ${arr.body} </div>`)
 
 
 }
