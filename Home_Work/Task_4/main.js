@@ -49,8 +49,93 @@ arrNum(array)*/
 
 
 /*
-- створити функцію яка створює параграф з текстом. Текст задати через аргумент
+створити функцію яка створює параграф з текстом.
+Текст задати через аргумент
+*/
+
+/*function dataP (paragraf) {
+   for (let i = 0; i <= 50; i++) {
+       document.write(`<p> ${paragraf}</p>`)
+   }
+}
+
+dataP('okten'); */
+
+/*
+створити функцію яка створює ul з трьома елементами li.
+Текст li задати через аргумент всім однаковий */
+
+/*
+function createThreeli (arg) {
+    document.write(`<ul>`)
+    document.write(`<li>${arg}</li>`)
+    document.write(`<li>${arg}</li>`)
+    document.write(`<li>${arg}</li>`)
+    document.write(`</ul>`)
+}
+ createThreeli('text element');
+*/
+
+/*
+створити функцію яка створює ul з трьома елементами li.
+ Текст li задати через аргумент всім однаковий.
+ Кількість li визначається другим аргументом,
+ який є числовим (тут використовувати цикл)
 */
 
 
+/* function createThreeLi(text, number) {
+    document.write(`<ul>`)
+    for (let i = 0; i < number; i++) {
+        document.write(`<li>${text}</li>`);
+           document.write(`<hr>`)
 
+    }
+ document.write(`</ul>`)
+}
+
+ createThreeLi('text',3);*/
+
+
+/*створити функцію яка приймає масив примітивних елементів
+(числа,стрінги,булеві), та будує для них список*/
+
+/*
+let arrayAll = [212,'Okten School', 453, true, false, 'Asus', 'Apple'];
+
+function arrAll (array) {
+    document.write(`<ul>`)
+    for(let i = 0; i < array.length; i++) {
+        document.write(`<li>${array[i]}</li>`);
+        document.write(`<hr>`)
+    }
+    document.write(`</ul>`)
+}
+arrAll(arrayAll);
+*/
+
+
+/*
+створити функцію яка приймає масив об'єктів з наступними полями
+id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
+*/
+
+/*
+let arrayUsers = [
+  { id: 1, name: "Adolf", age: 90 },
+  { id: 2, name: "Viorel", age: 37 },
+  { id: 3, name: "Artur", age: 18 },
+  { id: 3, name: "Last Pirat", age: 120 },
+  { id: 4, name: "Viktor", age: 30 },
+  { id: 5, name: "Alona", age: 27 },
+];
+
+function dataUser(arrUser) {
+  for (const arrUserElement of arrUser) {
+    document.write(
+      `<div>${arrUserElement.id}.${arrUserElement.name} - ${arrUserElement.age}<hr></div>`
+    );
+  }
+}
+dataUser(arrayUsers);
+*/
