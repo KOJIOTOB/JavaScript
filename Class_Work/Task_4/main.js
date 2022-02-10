@@ -7,7 +7,7 @@ function numerMinimal(minNum1, minNum2, minNum3) {
         console.log(minNum1)
     } else if (minNum2 < minNum1 && minNum2 < minNum3) {
         console.log(minNum2)
-    } else if (num3 < minNum1 && minNum3 < minNum2) {
+    } else if (minNum3 < minNum1 && minNum3 < minNum2) {
         console.log(minNum3)
     } else {
         console.log('Все числа равны')
