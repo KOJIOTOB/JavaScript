@@ -28,8 +28,8 @@ console.log(areaRad(10))*/
 
 /*
 function areaCylinder(r, h) {
-    let Cylinder = 2 * 3.14 * r * h;
-    return Cylinder;
+    let cylinder = 2 * 3.14 * r * h;
+    return cylinder;
 }
 
 console.log(areaCylinder(10,10))
