@@ -99,3 +99,51 @@ addCar.info();
 // Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
 //     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
 //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
+
+
+/*
+class Cinderella {
+    constructor (name, age, sizeFoot) {
+        this.name = name;
+        this.age = age;
+        this.sizeFoot = sizeFoot;
+    }
+}
+
+    const arrayCinderella = [
+        new Cinderella('Anna', 30, 38),
+        new Cinderella('Storm', 22, 43),
+        new Cinderella('Olga', 18, 40),
+        new Cinderella('Vika', 21, 37),
+        new Cinderella('Natasha', 23, 36),
+        new Cinderella('Maria', 28, 38),
+        new Cinderella('Sara', 21, 42),
+        new Cinderella('Fiona', 18, 45),
+        new Cinderella('Pomidora', 19, 41),
+        new Cinderella('Amelia', 25, 39),
+    ];
+   // console.log(arrayCinderella);
+
+    class PrinceData {
+       constructor (name, age, shoes) {
+        this.name = name;
+        this.age = age;
+        this.shoes = shoes;
+       }
+}
+
+const prince = new PrinceData('Shrek', 20, 45);
+//console.log(prince);
+
+    const findShoes = (arrayCinderella, prince) => {
+        for (const arrayCinderellaElement of arrayCinderella) {
+            if (arrayCinderellaElement.sizeFoot === prince.shoes) {
+                return `Любий ${prince.name} вітаємо, це твоя попелюшка ${arrayCinderellaElement.name} iз ${arrayCinderellaElement.sizeFoot} розiром туфлi =) `
+            }
+        }
+};
+console.log(findShoes(arrayCinderella, prince))
+
+const searchCinderella = arrayCinderella.find((item) => item.sizeFoot === prince.shoes);
+
+//console.log(searchCinderella);*/
