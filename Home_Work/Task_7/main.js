@@ -17,7 +17,7 @@ class User {
 */
 
 /*
-const arrayUser = [
+let arrayUser = [
     new User ('22', 'Dr.John', 'Smith', 'qwerty@gmail.ua', 2131231231),
     new User ('33', 'Ryan', 'Anderson', 'ffff@gmail.ua', 32424242423),
     new User ('11', 'Jamal', 'Johnson', 'qasda@gmail.ua', 123451231890),
