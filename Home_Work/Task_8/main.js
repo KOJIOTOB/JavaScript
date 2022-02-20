@@ -39,8 +39,8 @@ rules.innerText = 'Новий Текст';
 
 // -- отримати весь список класів елемента з id=rules і вивести їх в console.log
 
-// let idRules = document.getElementById('rules');
-// console.log(idRules.classList);
+//let idRules = document.getElementById('rules');
+//console.log(idRules.classList);
 
 // -- поміняти колір тексту у всіх елементів fc_rules на червоний
 
