@@ -4,6 +4,7 @@
 let allList = document.getElementsByClassName('rules')
 console.log(allList)
 for (const allListElement of allList) {
-    console.log(allListElement.className)
+    console.log(allListElement.classList)
+    //console.log(allListElement.className)
 }
 
